@@ -49,6 +49,7 @@ if(SCRIPTS)
   include(Northrend/CMakeLists.txt)
   include(Events/CMakeLists.txt)
   include(Pet/CMakeLists.txt)
+  include(Custom/CMakeLists.txt)
 endif()
 
 if(EXISTS "Custom/CMakeLists.txt")
