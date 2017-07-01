@@ -72,6 +72,9 @@ void AddSC_npcs_special();
 void AddSC_npc_taxi();
 void AddSC_achievement_scripts();
 
+//custom
+void AddSC_Summontrainer();
+
 //events
 void AddSC_event_brewfest_scripts();
 void AddSC_event_hallows_end_scripts();
@@ -661,6 +664,9 @@ void AddEventScripts()
 void AddEasternKingdomsScripts()
 {
 #ifdef SCRIPTS
+    //custom
+    AddSC_Summontrainer();
+
     AddSC_alterac_valley();                 //Alterac Valley
     AddSC_boss_balinda();
     AddSC_boss_drekthar();
