@@ -58,6 +58,7 @@ public:
                 if (!ScarletList.empty())
                     for (std::list<Creature*>::iterator itr = ScarletList.begin(); itr != ScarletList.end(); itr++)
                         (*itr)->setFaction(FACTION_FRIENDLY_TO_ALL);
+                        else return;
             }
         }
 
